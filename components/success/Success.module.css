@@ -1,0 +1,44 @@
+.storiesBox {
+    margin-left: 15px;
+    cursor: grab;
+}
+.storiesText {
+    padding: 20px;
+    background-color: #e6e9ec;
+
+}
+.storiesText>p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Libre Franklin",Sans-serif;
+    line-height: 1.5;
+}
+.storiesImageBox {
+    display: flex;
+    padding: 0 20px 0 20px;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.storiesImageBox>img{
+    border-radius: 999px;
+    object-fit: cover;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.info>strong {
+    color: #191818;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.info>span {
+    color: #06853b;
+    font-weight: 400;
+}
+

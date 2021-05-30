@@ -1,0 +1,118 @@
+.applyWrapper {
+    padding: 25px;
+
+}
+.applyContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+.applyBox>strong {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.applyBox>p {
+    color: #000;
+    font-size: 18px;
+    font-family: "Libre Franklin",Sans-serif;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.applyImageBox {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+.applyImageBox>img{
+    width: 100%;
+}
+.applyForm {
+    max-width: 600px;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    background-color: #85065f;
+}
+.applyForm>strong {
+    color: #E8E4E4;
+    font-weight: 400;
+    font-family: "Libre Franklin",Sans-serif;
+    
+}
+.applyButton {
+    background-color: #E8E4E4;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: #CCBEBE;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.applyButton:hover {
+    background-color: #ada9a9;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: #CCBEBE;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.scholar>strong {
+    font-size: 40px;
+    color: #FFF;
+    font-weight: 600;
+    font-family: "Libre Franklin",Sans-serif;
+    text-transform: uppercase;
+}
+.scholar>span {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 600;
+}
+.scholarInfo {
+    display: flex;
+    background-color: white;
+    margin: 10px 0px;
+    padding: 20px;
+}
+.scholarIcon {
+    font-size: 50px;
+    color: #C3C2C2;
+    padding-right: 20px;
+}
+.scholarText>strong {
+    color: #C3C2C2;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.scholarText>p {
+    font-family: "Libre Franklin",Sans-serif;
+    font-weight: 400;
+    color: #807474;
+}
+.scholarMain {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #06853b;
+}
+.scholarWrapper {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+
+}
+@media screen and (max-width: 768px) {
+    .scholarMain{
+        display: none;
+    }
+    .applyContainer{
+        flex-direction: column;
+    }
+
+}

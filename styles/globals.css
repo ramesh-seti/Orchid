@@ -14,3 +14,30 @@ a {
 * {
   box-sizing: border-box;
 }
+.ant-modal-close-x {
+  position: absolute;
+  font-size: 35px !important;
+  top: -80px;
+}
+.ant-table-thead>tr>th {
+  background: gray !important;
+  color: white !important;
+  font-size: 18px;
+  font-weight: bold;
+  border: none !important;
+}
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
+iframe{
+  height: 100vh;
+  width: 100%;
+}

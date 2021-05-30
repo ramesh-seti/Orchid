@@ -1,0 +1,96 @@
+.contactUsWrapper {
+    display: flex;
+    padding: 25px;
+
+}
+.contactUsConatiner{
+    max-width: 700px;
+    width: 100%;
+    margin-top: 150px;
+}
+.contactUsConatiner>strong {
+    font-size: 55px;
+    text-transform: capitalize;
+    color: #15040D;
+    font-family: "Libre Franklin",Sans-serif;
+    font-weight: 800;
+}
+.contactUsConatiner>p {
+    color: #504747;
+    font-size: 18px;
+    font-family: "Libre Franklin",Sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.contactUsImageBox{
+    padding-left: 150px;
+    padding-top: 25px;
+}
+.contactUsImageBox>img{
+    width: 100%;
+}
+.contactForm {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #06853b;
+}
+.sendMessageButton {
+    background-color: #E8E4E4;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: #CCBEBE;
+    color: #000;
+    
+}
+.sendMessageButton:hover{
+    background-color: #ada9a9;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: #CCBEBE;
+    color: #000;
+}
+.contactDetails {
+    margin-left: 150px;
+
+
+}
+.contactDetails>strong {
+    color:#160606;
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.contactDetailMain {
+    display: flex;
+    justify-content: flex-start;
+}
+.detailMain {
+    display: flex;
+    padding: 15px;
+}
+.detailIcon {
+    font-size: 50px;
+    color:#160606;
+    padding-right: 20px;
+}
+.detailInfo {
+    color: #160606;
+}
+@media screen and (max-width: 1000px) {
+    .contactUsWrapper{
+        flex-direction: column;
+    }
+    .contactDetails{
+        display: none;
+      }
+
+}
+@media screen and (max-width: 500px) {
+    .contactUsImageBox>img{
+        height: 200px;
+    }
+
+}

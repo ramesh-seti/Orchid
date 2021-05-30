@@ -1,0 +1,26 @@
+.admissionWrapper>strong {
+    text-decoration: underline;
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Libre Franklin",Sans-serif;
+   padding-left: 25px;
+   display: block;
+    margin-top: 10px;
+}
+.facultyTitle {
+font-family: "Libre Franklin",Sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.3em;
+color: #06853b;
+}
+.facultyDescription {
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.facultyBox {
+    margin: 50px;
+}

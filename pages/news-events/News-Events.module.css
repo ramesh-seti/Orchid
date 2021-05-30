@@ -1,0 +1,24 @@
+.newsEvents{
+    display:grid;
+     grid-template-columns:1fr 1fr 1fr;
+       gap:20;
+       padding:20;
+}
+@media only screen and (max-width: 750px){
+    .newsEvents{
+        display:grid;
+         grid-template-columns:1fr 1fr;
+           gap:20;
+           padding:20;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    .newsEvents{
+        display:grid;
+         grid-template-columns:1fr;
+           gap:20;
+           padding:20;
+    }
+    
+}

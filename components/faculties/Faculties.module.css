@@ -1,0 +1,44 @@
+.facultiesInfoText>strong{
+    color: inherit;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.facultiesInfoText>p{
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
+.facultiesBox{
+    margin-left: 15px;
+    height: 310px;
+    max-width: 315px;
+    width: 100%;
+    background-image: radial-gradient(at top left,#E8E4E4 0%,#FFFFFF 100%);
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 19%);
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainFacultyWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    grid-gap:30px;
+    
+}
+@media (max-width: 768px){
+    .mainFacultyWrapper{
+        grid-template-columns: 1fr;
+    }
+    .facultiesBox{
+        max-width: 100%;
+        margin-left: 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+}

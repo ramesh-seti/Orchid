@@ -1,0 +1,29 @@
+.button{
+    color: #FFF;
+    background-color: #1585C3;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-color: #134C6B;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 19%);
+    height: 40px;
+   
+}
+.button:hover{
+    color: #FFF;
+    background-color: #38a5e0;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-color: #134C6B;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 19%);
+    height: 40px;
+   }

@@ -1,0 +1,38 @@
+.facultyWrapper{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+}
+.aboutImageBox>img {
+    width: 100%;
+}
+.facultyInfo {
+    padding: 16px;
+}
+.facultyInfo>p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    font-family:  "Libre Franklin",Sans-serif;
+}
+.facultyText>strong{
+    color: #06853b;
+    font-family: "Libre Franklin",Sans-serif;
+    font-size: 20px;
+}
+.facultyText>ol>li {
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.facultyText {
+    padding: 16px;
+}
+@media screen and (max-width: 500px) {
+    .aboutImageBox>img{
+        height: 300px;
+    }
+
+}

@@ -1,0 +1,38 @@
+.footerWrapper{
+    background-color:#06853b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 0px 20px;
+    margin-top: 150px;
+    
+
+}
+.icon{
+    font-size: 24px;
+    color: white;
+}
+.item{
+    color: #EFEEEE;
+    padding-left: 6px;
+}
+.imageDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px 20px;
+}
+.footerImage {
+    margin-top: -50px;
+}
+@media screen and (max-width: 768px) {
+    .imageDiv{
+        display: none;
+    }
+    .footerWrapper{
+        grid-template-columns: 1fr;
+    }
+    .icon{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,570 @@
+.mainWrapper{
+    max-width: 1650px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper {
+padding-top: 20px;
+padding-bottom: 20px;
+display: flex;
+justify-content: space-between;
+padding-left: 50px;
+padding-right: 50px;
+}
+.imageBox {
+    cursor: pointer;
+}
+.information {
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.callSupport {
+    max-width:250px;
+    display: flex;
+    margin-right: 20px;
+}
+.location {
+    max-width: 250px;
+    display: flex;
+}
+.subInfo {
+    display: flex;
+    flex-direction: column;
+}
+.icon {
+    margin-right: 15px;
+}
+.title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.number {
+    color: #0ea94f;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.buttonWrapper{
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.buttonIcon{
+    font-size: 16px;
+}
+.locationCursor{ 
+    cursor: pointer;
+}
+.navItem {
+    color: #FFF;
+    font-family: "Libre Franklin",Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 2.5em;
+    letter-spacing: 1px;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+.navItem:hover{
+    color: #FFF;
+    font-family: "Libre Franklin",Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 2.5em;
+    letter-spacing: 1px;
+    background-color: #06853b;
+    cursor: pointer;
+}
+.navWrapper {
+    background-color: #0ea94f;
+    display: flex;
+    align-items: center;
+}
+.navContainer {
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+width: 100%;
+padding-left: 50px;
+}
+.navIcon {
+    padding-left: 10px;
+}
+.menuItem {
+    font-family: "Libre Franklin",Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 2.5em;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.menuItem:hover {
+    color: #06853b !important;
+    font-family: "Libre Franklin",Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 2.5em;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.subMenuTitle {
+    font-size: 16px;
+    font-weight: 600;
+}
+.subMenuTitle:hover {
+    font-size: 16px;
+    font-weight: 600;
+    color: #06853b !important;
+}
+.collegeName>strong{
+    color: #06853b;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #fff;
+    margin-top: 100px;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.collegeName{
+    max-width: 800px;
+    padding-left: 20px;
+    margin-top: 150px;
+    width: 100%;
+}
+.collegeName>p{
+margin-top: 20px;
+color: #000;
+font-size: 18px;
+font-weight: 400;
+font-family: "Libre Franklin",Sans-serif;
+}
+.studentImageBox {
+ display: flex;
+ justify-content: flex-end;
+ padding-right: 50px;
+}
+.homeInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.knowMoreButton {
+    font-weight: 800;
+    text-transform: uppercase;
+    fill:  #06853b !important;
+    color: #06853b !important;
+    background-color: #FFF;
+    border-style: solid;
+    border-width: 3px 0 3px 0;
+    border-color: #06853b !important;
+    border-radius: 50px 50px 50px 50px !important;
+    box-shadow: 0 12px 10px 0 rgb(0 0 0 / 22%) !important;
+    font-family: "Libre Franklin",Sans-serif;
+    font-size: 17px;
+    width: 185px;
+    height: 45px;
+}
+.knowMoreButton:hover {
+    font-weight: 800;
+    text-transform: uppercase;
+    fill:  #06853b !important;
+    color: #FFF !important;
+    background-color: #06853b !important;
+    border-style: solid;
+    border-width: 3px 0 3px 0;
+    border-color: #06853b !important;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 12px 10px 0 rgb(0 0 0 / 22%) !important;
+    font-family: "Libre Franklin",Sans-serif;
+    font-size: 17px;
+    width: 185px;
+    height: 45px;
+}
+.knowMoreWrapper {
+    padding-left: 14px;
+}
+.whyOrchidWrapper {
+    max-width: 1090px;
+    padding-left: 25px;
+    width: 100%;
+}
+.whyOrchidContainer {
+    height: 25px;
+    margin-bottom: 25px;
+    margin-top: 100px;
+
+}
+.whyOrchidContainer>strong {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+    color: #15040D;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.whyOrchidContainer>span {
+    color:#06853b ;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+}
+.widgetText {
+    background-color: rgba(235,234,235,.92);
+    border-style: solid;
+    border-width: 0 0 0 5px;
+    border-color:#1AFF;
+    border-radius: 50px 0 0 0;
+    padding: 20px 15px 20px 015px;
+    width: 100%;
+    height: fit-content;
+}
+.widgetText>p {
+    color: #201F1F;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Libre Franklin",Sans-serif;
+    margin-bottom: 20px;
+}
+.widgetText1 {
+    background-color: rgba(235,234,235,.92);
+    border-style: solid;
+    border-width: 0 0 0 5px;
+    border-color:#06853b;
+    border-radius: 50px 0 0 0;
+    padding: 20px 15px 20px 015px;
+    width: 100%;
+    height: fit-content;
+}
+.widgetText1>p {
+    color: #201F1F;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Libre Franklin",Sans-serif;
+    margin-bottom: 20px;
+}
+.mainConatiner {
+    display: flex;
+}
+.rightContainer {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+.welcomeVideoWrapper {
+    position: relative;
+    padding-left: 25px;
+    margin-top: 100px;
+}
+.welcomeVideoWrapper>strong {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+    color: #15040D;
+    font-family: "Libre Franklin",Sans-serif;
+    text-transform: uppercase;
+
+}
+.welcomeVideoWrapper>span {
+    color: #06853b;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.welcomeImageBox {
+    display: flex;
+    padding-left: 25px;
+    margin-top: 45px;
+}
+.welcomeImageBox>div{
+    max-width: 550px;
+    width: 100%;
+}
+.rightSideBox{
+    margin-left: 40px;
+}
+
+.modernWrapper{
+    max-width: 300px;
+    width: 100%;
+    border-width: 0 0 2px 0;
+    border-color: #06853b;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 0 0 50px 0;
+
+}
+.welcomeInfoText {
+margin-top: 15px;
+}
+.welcomeInfoText>strong{
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.welcomeInfoText>p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-family: "Libre Franklin",Sans-serif;
+    margin-top: 15px;
+}
+.welcomeInfoWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 1100px;
+    width: 100%;
+}
+.offeredProgramsWrapper{
+   padding-left: 25px;
+    margin-top: 100px;
+}
+.offeredProgramsWrapper>strong{
+    font-family: "Libre Franklin",Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+    color: #15040D;
+    text-transform: uppercase;
+}
+.offeredProgramsWrapper>span{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+    text-transform: uppercase;
+    color: #06853b;
+    font-family: "Libre Franklin",Sans-serif;
+}
+.offeredProgramsImageBox{
+    padding: 0px 25px;
+    margin-top: 45px;
+    width: 100%;
+
+}
+.facultiesWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.tuWrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    margin-top: 5px;
+    align-items: center;
+}
+.tuText{
+    margin-right: 20px;
+    font-family: "Libre Franklin",Sans-serif;
+    color: #584F4F;
+    font-size:20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.3em;
+    max-width:500px;
+} 
+.featuresWrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 45px;
+    margin-top: 100px;
+    position: relative;
+}
+.featuresWrapper>strong{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+    color: #15040D;
+    font-family: "Libre Franklin",Sans-serif;
+    text-transform: uppercase;
+}
+.featuresWrapper>span{
+    color: #06853b;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+    font-family: "Libre Franklin",Sans-serif;
+    padding-left: 5px;
+}
+.studentsMainWrapper {
+    padding-right: 45px;
+}
+.studentsStoriesWrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.studentsStoriesWrapper>strong {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+    color: #15040D;
+    font-family: "Libre Franklin",Sans-serif;
+    text-transform: uppercase;
+}
+.studentsStoriesWrapper>span{
+    color: #06853b;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: .5em;
+    font-family: "Libre Franklin",Sans-serif;
+    padding-left: 5px;
+}
+.link{
+    font-size: 24px;
+    color: white !important;
+}
+.navLogo{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+
+  
+  .buttonContainer{
+      display: none;
+  }
+  .wrapper{
+      display: none;
+  }
+  .navWrapper{
+    justify-content: space-between;
+    padding: 5px 16px;
+  }
+  .navContainer{
+      display: none;
+  }
+  .navLogo{
+      display: block;
+  }
+  .homeInfo{
+    flex-direction: column;
+  }
+  .collegeName{
+      padding-right: 20px;
+      margin-top: 25px;
+  }
+  .welcomeInfoWrapper{
+      flex-direction: column;
+  }
+  .modernWrapper{
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+  }
+  .offeredProgramsImageBox{
+      display: none;
+  }
+  .facultiesImageBox{
+      display: none;
+  }
+  .studentImageBox{
+      padding-right: 0px;
+      margin: 30px;
+  }
+  .whyOrchidWrapper{
+      padding-left: 0px;
+  }
+  .whyOrchidContainer{
+      padding-left: 25px;
+      margin-top: 0px;
+  }
+  .welcomeVideoWrapper{
+      margin-top: 25px;
+  }
+  .welcomeImageBox{
+      margin-top: 15px;
+      flex-direction: column;
+      margin-right: 20px;
+  }
+  .rightSideBox{
+      margin-left: 0px;
+      margin-top: 15px;
+  }
+  .offeredProgramsWrapper{
+    margin-top: 25px;
+  }
+  .tuWrapper{
+    padding-left: 25px;
+    flex-direction: column;
+    padding-right: 0px;
+  }
+  .featuresWrapper{
+    margin-top: 25px;
+    justify-content: start;
+    padding-left: 25px;
+  }
+  .featuresWrapper>strong{
+      font-size: 20px;
+  }
+  .featuresWrapper>span{
+      font-size: 20px;
+  }
+  .studentsStoriesWrapper{
+      margin-top: 25px;
+      margin-bottom: 25px;
+      padding-left: 0px;
+      display: block;
+      text-align: center;
+  }
+  .studentsStoriesWrapper>strong{
+      font-size: 16px;
+  }
+  .studentsStoriesWrapper>span{
+      font-size: 16px;
+  }
+}
+.menuIcon{
+
+    font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .menuIcon{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 1100px) {
+    .mainConatiner{
+        flex-direction: column;
+    }
+    .rightContainer{
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+    /* .widgetText{
+       
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+
+      } */
+}
+ 
+
+

@@ -1,0 +1,10 @@
+.playerWrapper {
+    height: 1000px !important;
+
+}
+.ant-modal-body {
+    padding: 24px;
+    font-size: 14px;
+    line-height: 1.5715;
+    word-wrap: break-word;
+}
