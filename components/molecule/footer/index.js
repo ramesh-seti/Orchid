@@ -32,7 +32,7 @@ function Footer (props) {
             </strong>
             {
                 links.map((item,index)=>
-                <Link href='/bsc-csit'>
+                <Link href='/contact-us'>
                 <a>
                 <div style={{padding:'5px'}}>
                    {item.icon}
